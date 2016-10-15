@@ -13,20 +13,20 @@ All credentials are hardcoded into the script. This makes everything more simple
 ## Installation:
 
 - Copy the git repo into your projects root directory.
-- Replace the uppercase written names by your project settings.
+- Replace the uppercase written names inside the `deploy.zsh` by your own project settings/credentials.
 
 ## Available commands:
 
 | Commands | Description |
 |---|---|
-| **Shorthand (just works when included in your workflow, e.g bower, npm, browsersync)** |
+| **Shorthand** | Just works when included in your workflow, e.g bower, npm, browsersync |
 | `PROJECT.project` | Moves to project directory |
 | `PROJECT.theme` | Moves to your theme directory |
 | `PROJECT.bower` | Installs bower components |
 | `PROJECT.npm` | Installs node modules |
 | `PROJECT.gulp` | Runs gulp in theme directory |
 | `PROJECT.gw` | Runs gulp watch in theme directory (starts Browsersync) |
-| **Deployment (stage name = dev or live) ** |
+| **Deployment** | stage name = dev or live |
 | `PROJECT.deploy` | Deploys code to staging by default, with optional argument <stage name> deploys to <stage name> |
 | **Push/Pull (Sync)** |
 | `PROJECT.files-push` | Pushes uploads from local to remote |

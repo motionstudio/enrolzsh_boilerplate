@@ -60,10 +60,10 @@ PROJECT.files-pull() {
 
 # SYNC Uploads & DB
 # import local db into remote + move local uploads to remote
-PROJECT.push() {
-	PROJECT.uploads-push $1 && PROJECT.db-push $1
-}
+#PROJECT.push() {
+#	PROJECT.uploads-push $1 && PROJECT.db-push $1
+#}
 # import remote db into local + move remote uploads to local
-PROJECT.pull() {
-	PROJECT.uploads-pull $1 && PROJECT.db-pull $1
-}
+#PROJECT.pull() {
+#	PROJECT.uploads-pull $1 && PROJECT.db-pull $1
+#}
